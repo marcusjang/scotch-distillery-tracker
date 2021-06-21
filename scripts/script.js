@@ -159,6 +159,6 @@ function initialize() {
 document.addEventListener('DOMContentLoaded', event => {
 	const req = new XMLHttpRequest();
 	req.addEventListener('load', initialize);
-	req.open('GET', '/data/distilleries.json');
+	req.open('GET', './data/distilleries.json');
 	req.send();
 });
