@@ -1,0 +1,780 @@
+{
+	"regions": [
+		"Highland",
+		"Lowland",
+		"Speyside",
+		"Islay",
+		"Campbeltown",
+		"Island"
+	],
+	"distilleries": [
+		{
+			"name": "Aberargie",
+			"region": "Lowland",
+			"owner": "Perth Distilling Co",
+			"active": true
+		},
+		{
+			"name": "Aberfeldy",
+			"region": "Highland",
+			"owner": "Bacardi",
+			"active": true
+		},
+		{
+			"name": "Aberlour",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Abhainn Dearg",
+			"region": "Island",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Ailsa Bay",
+			"region": "Lowland",
+			"owner": "William Grant & Sons",
+			"active": true
+		},
+		{
+			"name": "Allt-A-Bhainne",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Annandale",
+			"region": "Lowland",
+			"owner": "Annandale Distillery Company",
+			"active": true
+		},
+		{
+			"name": "Arbikie",
+			"region": "Highland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Ardbeg",
+			"region": "Islay",
+			"owner": "LVMH",
+			"active": true
+		},
+		{
+			"name": "Ardmore",
+			"region": "Highland",
+			"owner": "Beam Suntory",
+			"active": true
+		},
+		{
+			"name": "Ardnahoe",
+			"region": "Islay",
+			"owner": "Hunter Laing & Co Ltd",
+			"active": true
+		},
+		{
+			"name": "Ardnamurchan",
+			"region": "Highland",
+			"owner": "Adelphi Whisky",
+			"active": true
+		},
+		{
+			"name": "Arran",
+			"region": "Island",
+			"owner": "Isle of Arran Distillers Ltd.",
+			"active": true
+		},
+		{
+			"name": "Auchentoshan",
+			"region": "Lowland",
+			"owner": "Beam Suntory (Morrison Bowmore)",
+			"active": true
+		},
+		{
+			"name": "Auchroisk",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Aultmore",
+			"region": "Speyside",
+			"owner": "Bacardi",
+			"active": true
+		},
+		{
+			"name": "Balblair",
+			"region": "Highland",
+			"owner": "ThaiBev",
+			"active": true
+		},
+		{
+			"name": "Ballindalloch",
+			"region": "Speyside",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Balmenach",
+			"region": "Speyside",
+			"owner": "ThaiBev",
+			"active": true
+		},
+		{
+			"name": "Balvenie",
+			"region": "Speyside",
+			"owner": "William Grant & Sons",
+			"active": true
+		},
+		{
+			"name": "Barra",
+			"region": "Island",
+			"owner": "Uisge Beatha nan Eilean Ltd",
+			"active": true
+		},
+		{
+			"name": "Ben Nevis",
+			"region": "Highland",
+			"owner": "Nikka Whisky Distilling Co Ltd",
+			"active": true
+		},
+		{
+			"name": "BenRiach",
+			"region": "Speyside",
+			"owner": "Brown-Forman",
+			"active": true
+		},
+		{
+			"name": "Benrinnes",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Benromach",
+			"region": "Speyside",
+			"owner": "Gordon & MacPhail",
+			"active": true
+		},
+		{
+			"name": "Bladnoch",
+			"region": "Lowland",
+			"owner": "David Prior",
+			"active": true
+		},
+		{
+			"name": "Blair Athol",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Borders",
+			"region": "Lowland",
+			"owner": "The Three Stills Company",
+			"active": true
+		},
+		{
+			"name": "Bowmore",
+			"region": "Islay",
+			"owner": "Beam Suntory (Morrison Bowmore)",
+			"active": true
+		},
+		{
+			"name": "Royal Brackla",
+			"region": "Highland",
+			"owner": "Bacardi",
+			"active": true
+		},
+		{
+			"name": "Braeval",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Lone Wolf",
+			"region": "Highland",
+			"owner": "Brewdog plc.",
+			"active": true
+		},
+		{
+			"name": "Bruichladdich",
+			"region": "Islay",
+			"owner": "Rémy Cointreau",
+			"active": true
+		},
+		{
+			"name": "Bunnahabhain",
+			"region": "Islay",
+			"owner": "Distell (Burn Stewart)",
+			"active": true
+		},
+		{
+			"name": "Caol Ila",
+			"region": "Islay",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Cardhu",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Clydeside",
+			"region": "Lowland",
+			"owner": "Morrison Glasgow Distillers",
+			"active": true
+		},
+		{
+			"name": "Clynelish",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Cragganmore",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Craigellachie",
+			"region": "Speyside",
+			"owner": "Bacardi",
+			"active": true
+		},
+		{
+			"name": "Daftmill",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Dailuaine",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Dalmore",
+			"region": "Highland",
+			"owner": "Alliance Global Group (Emperador Inc)",
+			"active": true
+		},
+		{
+			"name": "Dalmunach",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Dalwhinnie",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Deanston",
+			"region": "Highland",
+			"owner": "Distell (Burn Stewart)",
+			"active": true
+		},
+		{
+			"name": "Deeside",
+			"region": "Highland",
+			"owner": "Deeside Brewery & Distillery Ltd",
+			"active": true
+		},
+		{
+			"name": "Dornoch",
+			"region": "Highland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Dufftown",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Eden Mill",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Edradour",
+			"region": "Highland",
+			"owner": "Signatory Vintage Scotch Whisky Co",
+			"active": true
+		},
+		{
+			"name": "Fettercairn",
+			"region": "Highland",
+			"owner": "Alliance Global Group (Emperador Inc)",
+			"active": true
+		},
+		{
+			"name": "Glasgow",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Glenallachie",
+			"region": "Speyside",
+			"owner": "The GlenAllachie Distillers Co Limited",
+			"active": true
+		},
+		{
+			"name": "Glenburgie",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Glencadam",
+			"region": "Highland",
+			"owner": "Angus Dundee Distiller",
+			"active": true
+		},
+		{
+			"name": "Glendronach",
+			"region": "Highland",
+			"owner": "Brown-Forman",
+			"active": true
+		},
+		{
+			"name": "Glendullan",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glen Elgin",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glenfarclas",
+			"region": "Speyside",
+			"owner": "J. & G. Grant",
+			"active": true
+		},
+		{
+			"name": "Glenfiddich",
+			"region": "Speyside",
+			"owner": "William Grant & Sons",
+			"active": true
+		},
+		{
+			"name": "Glen Garioch",
+			"region": "Highland",
+			"owner": "Beam Suntory (Morrison Bowmore)",
+			"active": true
+		},
+		{
+			"name": "Glenglassaugh",
+			"region": "Highland",
+			"owner": "Brown-Forman",
+			"active": true
+		},
+		{
+			"name": "Glengoyne",
+			"region": "Highland",
+			"owner": "Ian Macleod Distillers",
+			"active": true
+		},
+		{
+			"name": "Glen Grant",
+			"region": "Speyside",
+			"owner": "Campari",
+			"active": true
+		},
+		{
+			"name": "Glengyle",
+			"region": "Campbeltown",
+			"owner": "Mitchell's Glengyle Ltd",
+			"active": true
+		},
+		{
+			"name": "Glen Keith",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Glenkinchie",
+			"region": "Lowland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glenlivet",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Glenlossie",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glenmorangie",
+			"region": "Highland",
+			"owner": "LVMH",
+			"active": true
+		},
+		{
+			"name": "Glen Moray",
+			"region": "Speyside",
+			"owner": "La Martiniquaise",
+			"active": true
+		},
+		{
+			"name": "Glen Ord",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glenrothes",
+			"region": "Speyside",
+			"owner": "Edrington",
+			"active": true
+		},
+		{
+			"name": "Glen Scotia",
+			"region": "Campbeltown",
+			"owner": "Loch Lomond Group",
+			"active": true
+		},
+		{
+			"name": "Glen Spey",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Glentauchers",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Glenturret",
+			"region": "Highland",
+			"owner": "Lalique Group",
+			"active": true
+		},
+		{
+			"name": "GlenWyvis",
+			"region": "Highland",
+			"owner": "Independent (community ownership)",
+			"active": true
+		},
+		{
+			"name": "Harris",
+			"region": "Island",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Highland Park",
+			"region": "Island",
+			"owner": "Edrington",
+			"active": true
+		},
+		{
+			"name": "Holyrood",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Inchdairnie",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Inchgower",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Jura",
+			"region": "Island",
+			"owner": "Alliance Global Group (Whyte & Mackay)",
+			"active": true
+		},
+		{
+			"name": "Kilchoman",
+			"region": "Islay",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Kimbland",
+			"region": "Island",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Kingsbarns",
+			"region": "Lowland",
+			"owner": "Wemyss Malts",
+			"active": true
+		},
+		{
+			"name": "Kininvie",
+			"region": "Speyside",
+			"owner": "William Grant & Sons",
+			"active": true
+		},
+		{
+			"name": "Knockando",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Knockdhu",
+			"region": "Speyside",
+			"owner": "ThaiBev",
+			"active": true
+		},
+		{
+			"name": "Lagg",
+			"region": "Island",
+			"owner": "Isle of Arran Distillers Ltd.",
+			"active": true
+		},
+		{
+			"name": "Lagavulin",
+			"region": "Islay",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Laphroaig",
+			"region": "Islay",
+			"owner": "Beam Suntory",
+			"active": true
+		},
+		{
+			"name": "Leven",
+			"region": "Lowland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Lindores Abbey",
+			"region": "Lowland",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Linkwood",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Loch Lomond",
+			"region": "Highland",
+			"owner": "Loch Lomond Group",
+			"active": true
+		},
+		{
+			"name": "Royal Lochnagar",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Longmorn",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Macallan",
+			"region": "Speyside",
+			"owner": "Edrington",
+			"active": true
+		},
+		{
+			"name": "Macduff",
+			"region": "Highland",
+			"owner": "Bacardi",
+			"active": true
+		},
+		{
+			"name": "Mannochmore",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Miltonduff",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Mortlach",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Nc’nean",
+			"region": "Highland",
+			"owner": "Drimnin Distillery Co",
+			"active": true
+		},
+		{
+			"name": "Oban",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Pulteney",
+			"region": "Highland",
+			"owner": "ThaiBev",
+			"active": true
+		},
+		{
+			"name": "Raasay",
+			"region": "Island",
+			"owner": "R&B Distillers",
+			"active": true
+		},
+		{
+			"name": "Roseisle",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Scapa",
+			"region": "Island",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Speyburn",
+			"region": "Speyside",
+			"owner": "ThaiBev",
+			"active": true
+		},
+		{
+			"name": "Speyside",
+			"region": "Speyside",
+			"owner": "Independent",
+			"active": true
+		},
+		{
+			"name": "Springbank",
+			"region": "Campbeltown",
+			"owner": "J & A Mitchell & Co Ltd.",
+			"active": true
+		},
+		{
+			"name": "Strathearn",
+			"region": "Highland",
+			"owner": "Douglas Laing & Co.",
+			"active": true
+		},
+		{
+			"name": "Strathisla",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Strathmill",
+			"region": "Speyside",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Talisker",
+			"region": "Island",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Tamdhu",
+			"region": "Speyside",
+			"owner": "Ian Macleod Distillers",
+			"active": true
+		},
+		{
+			"name": "Tamnavulin",
+			"region": "Speyside",
+			"owner": "Alliance Global Group (Whyte & Mackay)",
+			"active": true
+		},
+		{
+			"name": "Teaninich",
+			"region": "Highland",
+			"owner": "Diageo",
+			"active": true
+		},
+		{
+			"name": "Tobermory",
+			"region": "Island",
+			"owner": "Distell (Burn Stewart)",
+			"active": true
+		},
+		{
+			"name": "Tomatin",
+			"region": "Highland",
+			"owner": "Takara Shuzo Co",
+			"active": true
+		},
+		{
+			"name": "Tomintoul",
+			"region": "Speyside",
+			"owner": "Angus Dundee Distiller",
+			"active": true
+		},
+		{
+			"name": "Torabhaig",
+			"region": "Island",
+			"owner": "Mossburn Distillers",
+			"active": true
+		},
+		{
+			"name": "Tormore",
+			"region": "Speyside",
+			"owner": "Pernod Ricard",
+			"active": true
+		},
+		{
+			"name": "Tullibardine",
+			"region": "Highland",
+			"owner": "Picard Vins & Spiritueux",
+			"active": true
+		},
+		{
+			"name": "Wolfburn",
+			"region": "Highland",
+			"owner": "Independent ",
+			"active": true
+		}
+	]
+}

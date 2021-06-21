@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	display: flex;
+}
+
+#visualisation {
+	font-size: 18px;
+	padding: 10vh 5vw;
+}
+
+#visualisation .distillery {
+	width: 1.2em;
+	height: 1em;
+	cursor: pointer;
+	display: inline-block;
+	opacity: 0.2;
+	margin: 0 0.5em 0.5em 0;
+	transition: opacity 0.2s ease-in-out;
+}
+
+#visualisation .distillery.checked {
+	opacity: 1;
+}
+
+#visualisation .distillery.highland,
+#lists .region.highland h3 {
+	background: hsl(350, 65%, 55%);
+}
+
+#visualisation .distillery.lowland,
+#lists .region.lowland h3 {
+	background: hsl(270, 65%, 55%);
+}
+
+#visualisation .distillery.speyside,
+#lists .region.speyside h3 {
+	background: hsl(110, 65%, 55%);
+}
+
+#visualisation .distillery.islay,
+#lists .region.islay h3 {
+	background: hsl(220, 65%, 55%);
+}
+
+#visualisation .distillery.campbeltown,
+#lists .region.campbeltown h3 {
+	background: hsl(20, 65%, 55%);
+}
+
+#visualisation .distillery.island,
+#lists .region.island h3 {
+	background: hsl(50, 65%, 55%);
+}
+
+#visualisation h3 {
+	text-transform: uppercase;
+}
+
+#visualisation .tooltip {
+	animation-duration: 0.2s;
+	display: inline-block;
+	opacity: 0.8;
+	position: absolute;
+	transform: translate(calc(-0.6em - 0.5em - 50%), 1.6em);
+	z-index: 10;
+}
+
+#visualisation .tooltip.up {
+	animation-name: tooltip;
+	animation-timing-function: ease-out;
+}
+
+#visualisation .tooltip.down {
+	animation-name: tooltip-down;
+	animation-timing-function: ease-in;
+	opacity: 0;
+}
+
+@keyframes tooltip {
+	from {
+		margin-top: -0.1em;
+		opacity: 0;
+	}
+
+	to {
+		margin-top: 0;
+		opacity: 0.8;
+	}
+}
+
+@keyframes tooltip-down {
+	from {
+		margin-top: 0;
+		opacity: 0.8;
+	}
+
+	to {
+		margin-top: -0.1em;
+		opacity: 0;
+	}
+}
+
+#visualisation .tooltip div::before {
+	content: "";
+	width: 15px;
+	height: 15px;
+	background: #000;
+	display: block;
+	margin: -17px auto -3px;
+	transform: rotate(45deg);
+}
+
+#visualisation .tooltip div {
+	background: #000;
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 12px;
+	padding: 0.8em 1.8em;
+	text-align: center;
+}
+
+#visualisation .tooltip div p {
+	margin: 0.3em 0;
+}
+
+#visualisation .tooltip div p.name {
+	font-size: 1.6em;
+}
+
+#lists {
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
+}
+
+#lists .region {
+	display: flex;
+}
+
+#lists h3 {
+	width: 60px;
+	height: 100vh;
+	color: #fff;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+#lists h3 span {
+	width: 200px;
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	transform: rotate(270deg) translate(-1em, -182px);
+	transform-origin: 100% top;
+}
+
+#lists ul {
+	min-height: 100vh;
+	max-height: 100vh;
+	height: 100vh;
+	max-width: 30vw;
+	min-width: 200px;
+	background: #fff;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow-x: visible;
+	overflow-y: scroll;
+}
+
+#lists label {
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	padding: 0.5em 2em;
+	transition: background 0.2s ease-in-out;
+	user-select: none;
+}
+
+#lists label.checked {
+	background: #f9f9f9;
+}
+
+#lists label.checked .name {
+	text-decoration: line-through;
+	text-decoration-color: rgba(224, 24, 24, 0.7);
+	text-decoration-thickness: 0.2em;
+}
+
+#lists label input {
+	display: none;
+}
+
+#lists label .name {
+	display: block;
+	font-size: 1.6em;
+	font-weight: lighter;
+}
+
+#lists label .owner {
+	color: #bbb;
+}
