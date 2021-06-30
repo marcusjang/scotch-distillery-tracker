@@ -1,3 +1,5 @@
+import * as base64 from './base64.js';
+
 function initialize() {
 	const res = this.responseText;
 	const data = JSON.parse(res);
