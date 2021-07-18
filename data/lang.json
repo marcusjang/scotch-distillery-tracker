@@ -1,0 +1,539 @@
+{
+    "Campbeltown": {
+        "ko": "캠블턴"
+    },
+    "Highland": {
+        "ko": "하이랜드"
+    },
+    "Island": {
+        "ko": "섬 지역"
+    },
+    "Islay": {
+        "ko": "아일라"
+    },
+    "Lowland": {
+        "ko": "로우랜드"
+    },
+    "Speyside": {
+        "ko": "스페이사이드"
+    },
+    "Aberargie": {
+        "ko": "애버아지"
+    },
+    "Aberfeldy": {
+        "ko": "애버펠디"
+    },
+    "Aberlour": {
+        "ko": "아벨라워"
+    },
+    "Abhainn Dearg": {
+        "ko": "아빈 데억"
+    },
+    "Ailsa Bay": {
+        "ko": "아일사 베이"
+    },
+    "Allt-A-Bhainne": {
+        "ko": "알타베인"
+    },
+    "Annandale": {
+        "ko": "아난데일"
+    },
+    "Arbikie": {
+        "ko": "아비키"
+    },
+    "Ardbeg": {
+        "ko": "아드벡"
+    },
+    "Ardmore": {
+        "ko": "아드모어"
+    },
+    "Ardnahoe": {
+        "ko": "아드나호"
+    },
+    "Ardnamurchan": {
+        "ko": "아드나머칸"
+    },
+    "Arran": {
+        "ko": "아란"
+    },
+    "Auchentoshan": {
+        "ko": "오큰토션"
+    },
+    "Auchroisk": {
+        "ko": "오쓰루스크"
+    },
+    "Aultmore": {
+        "ko": "올트모어"
+    },
+    "Balblair": {
+        "ko": "발블레어"
+    },
+    "Ballindalloch": {
+        "ko": "발린달로흐"
+    },
+    "Balmenach": {
+        "ko": "발메낙"
+    },
+    "Balvenie": {
+        "ko": "발베니"
+    },
+    "Barra": {
+        "ko": "바라"
+    },
+    "Ben Nevis": {
+        "ko": "벤 네비스"
+    },
+    "BenRiach": {
+        "ko": "벤리악"
+    },
+    "Benrinnes": {
+        "ko": "벤리니스"
+    },
+    "Benromach": {
+        "ko": "벤로막"
+    },
+    "Bladnoch": {
+        "ko": "블라드녹"
+    },
+    "Blair Athol": {
+        "ko": "블레어 어쏠"
+    },
+    "Borders": {
+        "ko": "보더스"
+    },
+    "Bowmore": {
+        "ko": "보모어"
+    },
+    "Royal Brackla": {
+        "ko": "로얄 브라클라"
+    },
+    "Braeval": {
+        "ko": "브래발"
+    },
+    "Lone Wolf": {
+        "ko": "론 울프"
+    },
+    "Bruichladdich": {
+        "ko": "브룩라디"
+    },
+    "Bunnahabhain": {
+        "ko": "부나하븐"
+    },
+    "Caol Ila": {
+        "ko": "쿨 일라"
+    },
+    "Cardhu": {
+        "ko": "카듀"
+    },
+    "Clydeside": {
+        "ko": "클라이드사이드"
+    },
+    "Clynelish": {
+        "ko": "클라인리쉬"
+    },
+    "Cragganmore": {
+        "ko": "크래건모어"
+    },
+    "Craigellachie": {
+        "ko": "크레이겔라히"
+    },
+    "Daftmill": {
+        "ko": "다프트밀"
+    },
+    "Dailuaine": {
+        "ko": "달유언"
+    },
+    "Dalmore": {
+        "ko": "달모어"
+    },
+    "Dalmunach": {
+        "ko": "달무낙"
+    },
+    "Dalwhinnie": {
+        "ko": "달위니"
+    },
+    "Deanston": {
+        "ko": "딘스턴"
+    },
+    "Deeside": {
+        "ko": "디사이드"
+    },
+    "Dornoch": {
+        "ko": "도녹"
+    },
+    "Dufftown": {
+        "ko": "더프타운"
+    },
+    "Eden Mill": {
+        "ko": "에덴 밀"
+    },
+    "Edradour": {
+        "ko": "에드라두어"
+    },
+    "Fettercairn": {
+        "ko": "페터케언"
+    },
+    "Glasgow": {
+        "ko": "글라스고"
+    },
+    "Glenallachie": {
+        "ko": "글렌알라키"
+    },
+    "Glenburgie": {
+        "ko": "글렌버기"
+    },
+    "Glencadam": {
+        "ko": "글렌카담"
+    },
+    "Glendronach": {
+        "ko": "글렌드로낙"
+    },
+    "Glendullan": {
+        "ko": "글렌둘란"
+    },
+    "Glen Elgin": {
+        "ko": "글렌 엘긴"
+    },
+    "Glenfarclas": {
+        "ko": "글렌파클라스"
+    },
+    "Glenfiddich": {
+        "ko": "글렌피딕"
+    },
+    "Glen Garioch": {
+        "ko": "글렌 기어리"
+    },
+    "Glenglassaugh": {
+        "ko": "글렌글라사"
+    },
+    "Glengoyne": {
+        "ko": "글렌고인"
+    },
+    "Glen Grant": {
+        "ko": "글렌 그란트"
+    },
+    "Glengyle": {
+        "ko": "글렌가일"
+    },
+    "Glen Keith": {
+        "ko": "글렌 키스"
+    },
+    "Glenkinchie": {
+        "ko": "글렌킨치"
+    },
+    "Glenlivet": {
+        "ko": "글렌리벳"
+    },
+    "Glenlossie": {
+        "ko": "글렌로시"
+    },
+    "Glenmorangie": {
+        "ko": "글렌모렌지"
+    },
+    "Glen Moray": {
+        "ko": "글렌 머리"
+    },
+    "Glen Ord": {
+        "ko": "글렌 오드"
+    },
+    "Glenrothes": {
+        "ko": "글렌로시스"
+    },
+    "Glen Scotia": {
+        "ko": "글렌 스코시아"
+    },
+    "Glen Spey": {
+        "ko": "글렌 스페이"
+    },
+    "Glentauchers": {
+        "ko": "글렌토커스"
+    },
+    "Glenturret": {
+        "ko": "글렌터렛"
+    },
+    "GlenWyvis": {
+        "ko": "글렌위비스"
+    },
+    "Harris": {
+        "ko": "해리스"
+    },
+    "Highland Park": {
+        "ko": "하이랜드 파크"
+    },
+    "Holyrood": {
+        "ko": "홀리루드"
+    },
+    "Inchdairnie": {
+        "ko": "인치더니"
+    },
+    "Inchgower": {
+        "ko": "인치고워"
+    },
+    "Jura": {
+        "ko": "주라"
+    },
+    "Kilchoman": {
+        "ko": "킬호만"
+    },
+    "Kingsbarns": {
+        "ko": "킹스반스"
+    },
+    "Kininvie": {
+        "ko": "키닌비"
+    },
+    "Knockando": {
+        "ko": "녹캔도"
+    },
+    "Knockdhu": {
+        "ko": "녹듀"
+    },
+    "Lagg": {
+        "ko": "라그"
+    },
+    "Lagavulin": {
+        "ko": "라가불린"
+    },
+    "Laphroaig": {
+        "ko": "라프로익"
+    },
+    "Lindores Abbey": {
+        "ko": "린도스 애비"
+    },
+    "Linkwood": {
+        "ko": "링크우드"
+    },
+    "Loch Lomond": {
+        "ko": "로흐 로몬드"
+    },
+    "Royal Lochnagar": {
+        "ko": "로얄 로흐나가"
+    },
+    "Longmorn": {
+        "ko": "롱몬"
+    },
+    "Macallan": {
+        "ko": "맥캘란"
+    },
+    "Macduff": {
+        "ko": "맥더프"
+    },
+    "Mannochmore": {
+        "ko": "마녹모어"
+    },
+    "Miltonduff": {
+        "ko": "밀튼더프"
+    },
+    "Mortlach": {
+        "ko": "모틀락"
+    },
+    "Nc’nean": {
+        "ko": "눅닌"
+    },
+    "Oban": {
+        "ko": "오반"
+    },
+    "Pulteney": {
+        "ko": "펄트니"
+    },
+    "Raasay": {
+        "ko": "라세이"
+    },
+    "Roseisle": {
+        "ko": "로즈아일"
+    },
+    "Scapa": {
+        "ko": "스카파"
+    },
+    "Speyburn": {
+        "ko": "스페이번"
+    },
+    "Speyside": {
+        "ko": "스페이사이드"
+    },
+    "Springbank": {
+        "ko": "스프링뱅크"
+    },
+    "Strathearn": {
+        "ko": "스트라스언"
+    },
+    "Strathisla": {
+        "ko": "스트라스아일라"
+    },
+    "Strathmill": {
+        "ko": "스트라스밀"
+    },
+    "Talisker": {
+        "ko": "탈리스커"
+    },
+    "Tamdhu": {
+        "ko": "탐듀"
+    },
+    "Tamnavulin": {
+        "ko": "탐나불린"
+    },
+    "Teaninich": {
+        "ko": "티니닉"
+    },
+    "Tobermory": {
+        "ko": "토버모리"
+    },
+    "Tomatin": {
+        "ko": "토마틴"
+    },
+    "Tomintoul": {
+        "ko": "토민툴"
+    },
+    "Torabhaig": {
+        "ko": "토라백"
+    },
+    "Tormore": {
+        "ko": "토모어"
+    },
+    "Tullibardine": {
+        "ko": "툴리바딘"
+    },
+    "Wolfburn": {
+        "ko": "울프번"
+    },
+    "Perth Distilling Co": {
+        "ko": "퍼스 디스틸링"
+    },
+    "Bacardi": {
+        "ko": "바카디"
+    },
+    "Pernod Ricard": {
+        "ko": "페르노리카"
+    },
+    "Independent": {
+        "ko": "독립회사"
+    },
+    "William Grant & Sons": {
+        "ko": "윌리엄 그랜트 & 선즈"
+    },
+    "Annandale Distillery Company": {
+        "ko": "아난데일 디스틸러리"
+    },
+    "LVMH": {
+        "ko": "LVMH"
+    },
+    "Beam Suntory": {
+        "ko": "빔-산토리"
+    },
+    "Hunter Laing & Co Ltd": {
+        "ko": "헌터 랭"
+    },
+    "Adelphi Whisky": {
+        "ko": "아델피 위스키"
+    },
+    "Isle of Arran Distillers Ltd.": {
+        "ko": "아일 오브 아란 디스틸러스"
+    },
+    "Beam Suntory (Morrison Bowmore)": {
+        "ko": "빔-산토리 (모리슨 보모어)"
+    },
+    "Diageo": {
+        "ko": "디아지오"
+    },
+    "ThaiBev": {
+        "ko": "타이베브"
+    },
+    "Uisge Beatha nan Eilean Ltd": {
+        "ko": "위스게 베타 난 일리언"
+    },
+    "Nikka Whisky Distilling Co Ltd": {
+        "ko": "닛카 위스키"
+    },
+    "Brown-Forman": {
+        "ko": "브라운-포먼"
+    },
+    "Gordon & MacPhail": {
+        "ko": "고든 & 맥페일"
+    },
+    "David Prior": {
+        "ko": "데이빗 프라이어"
+    },
+    "The Three Stills Company": {
+        "ko": "쓰리 스틸즈"
+    },
+    "Brewdog plc.": {
+        "ko": "브루독"
+    },
+    "Rémy Cointreau": {
+        "ko": "레미 코인트로"
+    },
+    "Distell (Burn Stewart)": {
+        "ko": "디스텔 (번 스튜어트)"
+    },
+    "Morrison Glasgow Distillers": {
+        "ko": "모리슨 글래스고 디스틸러스"
+    },
+    "Alliance Global Group (Emperador Inc)": {
+        "ko": "얼라이언스 글로벌 (엠퍼라도어)"
+    },
+    "Deeside Brewery & Distillery Ltd": {
+        "ko": "디사이드 브루어리 & 디스틸러리"
+    },
+    "Signatory Vintage Scotch Whisky Co": {
+        "ko": "시그너토리 빈티지"
+    },
+    "The GlenAllachie Distillers Co Limited": {
+        "ko": "글렌알라키 디스틸러스"
+    },
+    "Angus Dundee Distiller": {
+        "ko": "앵거스 던디 디스틸러"
+    },
+    "J. & G. Grant": {
+        "ko": "J. & G. 그랜트"
+    },
+    "Ian Macleod Distillers": {
+        "ko": "이안 맥러디 디스틸러스"
+    },
+    "Campari": {
+        "ko": "캄파리"
+    },
+    "Mitchell's Glengyle Ltd": {
+        "ko": "미첼스 글렌가일"
+    },
+    "La Martiniquaise": {
+        "ko": "라 마르티니케즈"
+    },
+    "Edrington": {
+        "ko": "에드링턴"
+    },
+    "Loch Lomond Group": {
+        "ko": "로흐 로몬드 그룹"
+    },
+    "Lalique Group": {
+        "ko": "라리끄 그룹"
+    },
+    "Independent (community ownership)": {
+        "ko": "독립 (지역사회)"
+    },
+    "Alliance Global Group (Whyte & Mackay)": {
+        "ko": "얼라이언스 글로벌 (화이트 & 맥케이)"
+    },
+    "Wemyss Malts": {
+        "ko": "윔스 몰츠"
+    },
+    "Drimnin Distillery Co": {
+        "ko": "드림닌 디스틸러리"
+    },
+    "R&B Distillers": {
+        "ko": "R&B 디스틸러스"
+    },
+    "J & A Mitchell & Co Ltd.": {
+        "ko": "J & A 미첼 & Co"
+    },
+    "Douglas Laing & Co.": {
+        "ko": "더글러스 랭"
+    },
+    "Takara Shuzo Co": {
+        "ko": "타카라 슈조"
+    },
+    "Mossburn Distillers": {
+        "ko": "모스번 디스틸러스"
+    },
+    "Picard Vins & Spiritueux": {
+        "ko": "피카드 빈스 & 스피리투"
+    }
+}

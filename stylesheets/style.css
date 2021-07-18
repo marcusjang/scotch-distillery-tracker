@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: "Pretendard", sans-serif;
+	/* font-family: serif; */
 }
 
 #wrapper {
@@ -8,8 +10,24 @@ body {
 }
 
 #visualisation {
+	max-height: 100vh;
+	min-height: 100vh;
+	height: 100vh;
+	box-sizing: border-box;
 	font-size: 18px;
 	padding: 10vh 5vw;
+	overflow-y: scroll;
+}
+
+#visualisation::-webkit-scrollbar,
+#lists ul::-webkit-scrollbar {
+	width: 0;
+	background: transparent;
+}
+
+#visualisation,
+#lists ul {
+	scrollbar-width: none;
 }
 
 #visualisation .distillery {
@@ -20,6 +38,7 @@ body {
 	opacity: 0.2;
 	margin: 0 0.5em 0.5em 0;
 	transition: opacity 0.2s ease-in-out;
+	user-select: none;
 }
 
 #visualisation .distillery.checked {
@@ -27,37 +46,44 @@ body {
 }
 
 #visualisation .distillery.highland,
-#lists .region.highland h3 {
-	background: hsl(350, 65%, 55%);
+#lists .region.highland header,
+header.highland .graph {
+	background-color: hsl(350, 65%, 55%);
 }
 
 #visualisation .distillery.lowland,
-#lists .region.lowland h3 {
-	background: hsl(270, 65%, 55%);
+#lists .region.lowland header,
+header.lowland .graph {
+	background-color: hsl(270, 65%, 55%);
 }
 
 #visualisation .distillery.speyside,
-#lists .region.speyside h3 {
-	background: hsl(110, 65%, 55%);
+#lists .region.speyside header,
+header.speyside .graph {
+	background-color: hsl(110, 65%, 55%);
 }
 
 #visualisation .distillery.islay,
-#lists .region.islay h3 {
-	background: hsl(220, 65%, 55%);
+#lists .region.islay header,
+header.islay .graph {
+	background-color: hsl(220, 65%, 55%);
 }
 
 #visualisation .distillery.campbeltown,
-#lists .region.campbeltown h3 {
-	background: hsl(20, 65%, 55%);
+#lists .region.campbeltown header,
+header.campbeltown .graph {
+	background-color: hsl(20, 65%, 55%);
 }
 
 #visualisation .distillery.island,
-#lists .region.island h3 {
-	background: hsl(50, 65%, 55%);
+#lists .region.island header,
+header.island .graph {
+	background-color: hsl(50, 65%, 55%);
 }
 
 #visualisation h3 {
 	text-transform: uppercase;
+	cursor: default;
 }
 
 #visualisation .tooltip {
@@ -121,6 +147,7 @@ body {
 	color: #fff;
 	font-size: 12px;
 	padding: 0.8em 1.8em;
+	pointer-events: none;
 	text-align: center;
 }
 
@@ -142,18 +169,18 @@ body {
 	display: flex;
 }
 
-#lists h3 {
+#lists header {
 	width: 60px;
 	height: 100vh;
 	color: #fff;
 	cursor: pointer;
-	margin: 0;
-	padding: 0;
 }
 
-#lists h3 span {
+#lists header h3 {
 	width: 200px;
 	display: block;
+	margin: 0;
+	padding: 0;
 	text-align: right;
 	text-transform: uppercase;
 	transform: rotate(270deg) translate(-1em, -182px);
@@ -161,11 +188,12 @@ body {
 }
 
 #lists ul {
-	min-height: 100vh;
 	max-height: 100vh;
+	min-height: 100vh;
 	height: 100vh;
-	max-width: 30vw;
+	max-width: 300px;
 	min-width: 200px;
+	width: 15vw;
 	background: #fff;
 	list-style: none;
 	margin: 0;
@@ -188,7 +216,7 @@ body {
 }
 
 #lists label.checked .name {
-	text-decoration: line-through;
+	text-decoration-line: line-through;
 	text-decoration-color: rgba(224, 24, 24, 0.7);
 	text-decoration-thickness: 0.2em;
 }
@@ -200,9 +228,40 @@ body {
 #lists label .name {
 	display: block;
 	font-size: 1.6em;
-	font-weight: lighter;
+	font-weight: 200;
 }
 
 #lists label .owner {
 	color: #bbb;
+}
+
+header .counter {
+	font-weight: 300;
+	display: inline-block;
+}
+
+#visualisation header .counter {
+	display: inline-block;
+	margin-left: 1em;
+	opacity: 0.33;
+}
+
+#lists header .counter {
+	margin-right: 1em;
+	opacity: 0.67;
+}
+
+header .counter .total::before {
+	content: "/";
+	display: inline-block;
+	margin: 0 0.2em;
+}
+
+header .graph {
+	height: 1.2em;
+	width: 1.2em;
+	border-radius: 0.6em;
+	display: inline-block;
+	margin-right: 1em;
+	vertical-align: bottom;
 }
