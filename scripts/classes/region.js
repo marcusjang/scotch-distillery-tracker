@@ -25,12 +25,7 @@ export default class Region {
     this.section = this.createSection();
     this.header = this.createHeader();
 
-    this.proxy = new Proxy(this.count, {
-      set: (target, property, value, receiver) => {
-        console.log('counted');
-        return true;
-      }
-    });
+    this.countProxy.owned = 0;
   }
 
   get completeionPercentage() {
