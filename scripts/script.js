@@ -121,8 +121,8 @@ function initialize(data, lang) {
   getHash();
 
   window.addEventListener('hashchange', () => {
-    //getHash();
-    console.log(window.location.hash);
+    getHash();
+    //console.log(window.location.hash);
   }, false);
   window.initialized = true;
 }
