@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	font-family: "Pretendard", sans-serif;
 	/* font-family: serif; */
+	overflow: hidden;
 }
 
 #wrapper {
@@ -15,8 +16,10 @@ body {
 	height: 100vh;
 	box-sizing: border-box;
 	font-size: 18px;
-	padding: 10vh 5vw;
+	padding: calc(10vh - 2.5em) 5vw 10vh;
 	overflow-y: scroll;
+	position: relative;
+	z-index: 20;
 }
 
 #visualisation::-webkit-scrollbar,
@@ -48,19 +51,19 @@ body {
 #visualisation .distillery.highland,
 #lists .region.highland header,
 header.highland .graph {
-	background-color: hsl(350, 65%, 55%);
+	background-color: #E8352A;
 }
 
 #visualisation .distillery.lowland,
 #lists .region.lowland header,
 header.lowland .graph {
-	background-color: hsl(270, 65%, 55%);
+	background-color: HSL(256.8, 70%, 61.6%);
 }
 
 #visualisation .distillery.speyside,
 #lists .region.speyside header,
 header.speyside .graph {
-	background-color: hsl(110, 65%, 55%);
+	background-color: HSL(85.3, 70%, 47.7%);
 }
 
 #visualisation .distillery.islay,
@@ -72,26 +75,30 @@ header.islay .graph {
 #visualisation .distillery.campbeltown,
 #lists .region.campbeltown header,
 header.campbeltown .graph {
-	background-color: hsl(20, 65%, 55%);
+	background-color: #ff5900;
 }
 
 #visualisation .distillery.island,
 #lists .region.island header,
 header.island .graph {
-	background-color: hsl(50, 65%, 55%);
+	background-color: #FFBF1F;
 }
 
 #visualisation h3 {
 	text-transform: uppercase;
 	cursor: default;
+	display: flex;
+	margin: 2em 0 1em;
 }
 
 #visualisation .tooltip {
 	animation-duration: 0.2s;
 	display: inline-block;
-	opacity: 0.8;
+	opacity: 1;
 	position: absolute;
+	pointer-events: none;
 	transform: translate(calc(-0.6em - 0.5em - 50%), 1.6em);
+	transform-box: view-box;
 	z-index: 10;
 }
 
@@ -114,14 +121,14 @@ header.island .graph {
 
 	to {
 		margin-top: 0;
-		opacity: 0.8;
+		opacity: 1;
 	}
 }
 
 @keyframes tooltip-down {
 	from {
 		margin-top: 0;
-		opacity: 0.8;
+		opacity: 1;
 	}
 
 	to {
@@ -134,21 +141,22 @@ header.island .graph {
 	content: "";
 	width: 15px;
 	height: 15px;
-	background: #000;
+	background: #fff;
 	display: block;
 	margin: -17px auto -3px;
 	transform: rotate(45deg);
 }
 
 #visualisation .tooltip div {
-	background: #000;
+	background: #fff;
 	border-radius: 8px;
-	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-	color: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	color: #000;
 	font-size: 12px;
-	padding: 0.8em 1.8em;
+	padding: 0.8em 1.2em;
 	pointer-events: none;
 	text-align: center;
+	white-space: pre;
 }
 
 #visualisation .tooltip div p {
@@ -156,7 +164,11 @@ header.island .graph {
 }
 
 #visualisation .tooltip div p.name {
-	font-size: 1.6em;
+	font-size: 1.2em;
+}
+
+#visualisation .tooltip div p.owner {
+	display: none;
 }
 
 #lists {
@@ -177,22 +189,28 @@ header.island .graph {
 }
 
 #lists header h3 {
-	width: 200px;
-	display: block;
+	height: 0;
+	width: 0;
+	align-content: center;
+	display: flex;
+	line-height: 60px;
+	justify-content: end;
 	margin: 0;
 	padding: 0;
 	text-align: right;
 	text-transform: uppercase;
-	transform: rotate(270deg) translate(-1em, -182px);
-	transform-origin: 100% top;
+	transform: rotate(270deg) translate(-1em, 0);
+	transform-box: fill-box;
+	transform-origin: top right;
+	white-space: pre;
 }
 
 #lists ul {
 	max-height: 100vh;
 	min-height: 100vh;
 	height: 100vh;
-	max-width: 300px;
-	min-width: 200px;
+	max-width: 260px;
+	min-width: 240px;
 	width: 15vw;
 	background: #fff;
 	list-style: none;
@@ -241,7 +259,6 @@ header .counter {
 }
 
 #visualisation header .counter {
-	display: inline-block;
 	margin-left: 1em;
 	opacity: 0.33;
 }
@@ -261,7 +278,6 @@ header .graph {
 	height: 1.2em;
 	width: 1.2em;
 	border-radius: 0.6em;
-	display: inline-block;
 	margin-right: 1em;
 	vertical-align: bottom;
 }
