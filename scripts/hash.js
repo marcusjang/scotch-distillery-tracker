@@ -23,5 +23,11 @@ export const numToArr = (num, len = 0) => {
 	return arr;
 };
 
-export const setHash = (hash) => window.location.hash = '#' + hash;
+export const setHash = (hash) => {
+	const url = new URL(window.location);
+	url.hash = '#' + hash;
+	history.replaceState({}, '', url);
+	return true;
+}
+
 export const getHash = () => window.location.hash.slice(1);
