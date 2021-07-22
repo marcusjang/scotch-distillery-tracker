@@ -137,11 +137,11 @@ const distilleriesProxy = new Proxy(distilleries, {
 
       input.checked = value;
 
-      if (input.checked && !label.classList.contains('checked')) {
+      if (value) {
         label.classList.add('checked');
         block.classList.add('checked');
         regions[region].countProxy.owned++;
-      } else if (!input.checked && label.classList.contains('checked')) {
+      } else {
         label.classList.remove('checked');
         block.classList.remove('checked');
         regions[region].countProxy.owned--;
