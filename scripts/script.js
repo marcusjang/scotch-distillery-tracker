@@ -146,10 +146,9 @@ const distilleriesProxy = new Proxy(distilleries, {
         block.classList.remove('checked');
         regions[region].countProxy.owned--;
       }
-
-      if (window.initialized) setHash();
     }
     target[property] = value;
+    if (window.initialized) setHash();
     return true;
   }
 });
