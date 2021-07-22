@@ -110,7 +110,7 @@ function initialize(data, lang) {
       try {
         const arr = parseHash.numToArr(hash, data.distilleries.length);
         for (const [index, value] of arr.entries()) {
-          if (value) distilleriesProxy[index] = value;
+          distilleriesProxy[index] = value;
         }
       } catch(err) {
         console.error(err);
