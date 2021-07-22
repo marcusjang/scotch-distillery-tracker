@@ -128,27 +128,28 @@ const distilleries = [];
 const distilleriesProxy = new Proxy(distilleries, {
   apply: (target, thisArg, args) => thisArg[target].apply(this, args),
   set: (target, property, value, receiver) => {
-    //console.log('Set %s to %o', property, value);
+    if (target[property] != value) {
+      //console.log('Set %s to %o', property, value);
+      const input = document.getElementById('input-id-' + property);
+      const label = document.getElementById('label-id-' + property);
+      const block = document.getElementById('block-id-' + property);
+      const region = block.dataset.region;
 
-    const input = document.getElementById('input-id-' + property);
-    const label = document.getElementById('label-id-' + property);
-    const block = document.getElementById('block-id-' + property);
-    const region = block.dataset.region;
+      input.checked = value;
 
-    target[property] = value;
-    input.checked = value;
+      if (input.checked && !label.classList.contains('checked')) {
+        label.classList.add('checked');
+        block.classList.add('checked');
+        regions[region].countProxy.owned++;
+      } else if (!input.checked && label.classList.contains('checked')) {
+        label.classList.remove('checked');
+        block.classList.remove('checked');
+        regions[region].countProxy.owned--;
+      }
 
-    if (input.checked && !label.classList.contains('checked')) {
-      label.classList.add('checked');
-      block.classList.add('checked');
-      regions[region].countProxy.owned++;
-    } else if (!input.checked && label.classList.contains('checked')) {
-      label.classList.remove('checked');
-      block.classList.remove('checked');
-      regions[region].countProxy.owned--;
+      if (window.initialized) setHash();
     }
-
-    if (window.initialized) setHash();
+    target[property] = value;
     return true;
   }
 });
