@@ -104,24 +104,10 @@ function initialize(data, lang) {
 
   lists.querySelector('.region ul').style.display = 'block';
 
-  const getHash = () => {
-    const hash = parseHash.getHash();
-    if (hash.length > 0) {
-      try {
-        const arr = parseHash.numToArr(hash, data.distilleries.length);
-        for (const [index, value] of arr.entries()) {
-          distilleriesProxy[index] = value;
-        }
-      } catch(err) {
-        console.error(err);
-      }
-    }
-  };
-
-  getHash();
+  getHash(distilleries.length);
 
   window.addEventListener('hashchange', () => {
-    getHash();
+    getHash(distilleries.length);
     //console.log(window.location.hash);
   }, false);
   window.initialized = true;
@@ -152,11 +138,11 @@ const distilleriesProxy = new Proxy(distilleries, {
     target[property] = value;
     input.checked = value;
 
-    if (input.checked) {
+    if (input.checked && !label.classList.contains('checked')) {
       label.classList.add('checked');
       block.classList.add('checked');
       regions[region].countProxy.owned++;
-    } else {
+    } else if (!input.checked && label.classList.contains('checked')) {
       label.classList.remove('checked');
       block.classList.remove('checked');
       regions[region].countProxy.owned--;
@@ -166,6 +152,21 @@ const distilleriesProxy = new Proxy(distilleries, {
     return true;
   }
 });
+
+const getHash = len => {
+  const hash = parseHash.getHash();
+  if (hash.length > 0) {
+    try {
+      const arr = parseHash.numToArr(hash, len);
+  console.log(arr)
+      for (const [index, value] of arr.entries()) {
+        distilleriesProxy[index] = value;
+      }
+    } catch(err) {
+      console.error(err);
+    }
+  }
+};
 
 const setHash = () => {
   const num = parseHash.arrToNum(distilleries);
